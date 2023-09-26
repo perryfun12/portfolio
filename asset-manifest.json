@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ed2b2f43.css",
+    "main.js": "/portfolio/static/js/main.5a22cec3.js",
+    "static/js/787.8dd75f2d.chunk.js": "/portfolio/static/js/787.8dd75f2d.chunk.js",
+    "static/media/HeroBackground.gif": "/portfolio/static/media/HeroBackground.6e15409ad87c77bca92a.gif",
+    "static/media/Perry-Fung-Portfolio.pdf": "/portfolio/static/media/Perry-Fung-Portfolio.0ed5445743fb03b8622b.pdf",
+    "static/media/resume-background.jpg": "/portfolio/static/media/resume-background.72dea08f4d1eefcc31ec.jpg",
+    "static/media/Perry-Fung-Resume.pdf": "/portfolio/static/media/Perry-Fung-Resume.3734cacda1eba9c7b1ad.pdf",
+    "static/media/portfolio-background.jpg": "/portfolio/static/media/portfolio-background.0cdef4def05d37173ca3.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ed2b2f43.css.map": "/portfolio/static/css/main.ed2b2f43.css.map",
+    "main.5a22cec3.js.map": "/portfolio/static/js/main.5a22cec3.js.map",
+    "787.8dd75f2d.chunk.js.map": "/portfolio/static/js/787.8dd75f2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed2b2f43.css",
+    "static/js/main.5a22cec3.js"
+  ]
+}
