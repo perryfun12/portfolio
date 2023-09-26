@@ -1,0 +1,40 @@
+.hero-background{
+    background-image: url("../../../public/Images/HeroBackground.gif");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+
+    }
+    
+.hero-main-content{
+    color: white;
+    font-size: 7vw;
+    text-shadow: 2px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.hero-sub-content{
+    color: lightgrey;
+    font-size: 26px;
+
+}
+
+.icons {
+    color: inherit; 
+  }
+
+.icon-spacing {
+    margin-right: 3em; /* Adjust the margin as needed */
+}
+
+@media screen and (max-width: 1000px) {
+
+    .hero-main-content {
+        font-size: 70px; 
+    }
+
+}
