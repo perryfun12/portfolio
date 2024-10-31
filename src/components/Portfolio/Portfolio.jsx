@@ -2,8 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import portfoliopdf from "src/assets/David Jin Resume(M).pdf";
-
+import portfoliopdf from "../../assets/Perry-Fung-Portfolio.pdf";
 function Portfolio() {
   return (
     <div className="portfolio-background">
@@ -25,5 +24,4 @@ function Portfolio() {
     </div>
   );
 }
-
 export default Portfolio;
