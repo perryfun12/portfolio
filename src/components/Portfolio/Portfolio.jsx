@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import portfoliopdf from "../../assets/Perry-Fung-Portfolio.pdf";
+import portfoliopdf from "../../assets/Perry-Fung-Portfolio";
 
 function Portfolio() {
   return (
