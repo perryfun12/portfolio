@@ -2,7 +2,7 @@ import React from "react";
 import "./Socials.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import portfoliopdf from "../../assets/SOCIAL MEDIA PORTFOLIO.pdf";
+import socialsPortfoliopdf from "../../assets/SOCIAL MEDIA PORTFOLIO.pdf";
 function Socials() {
   return (
     <div className="socials-background">
@@ -13,7 +13,7 @@ function Socials() {
       </div>
       <a
         className="portfolio-link"
-        href={portfoliopdf}
+        href={socialsPortfoliopdf}
         rel="noreferrer"
         target="_blank"
       >
