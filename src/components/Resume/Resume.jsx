@@ -2,7 +2,7 @@ import React from "react";
 import "./Resume.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
-import resumepdf from "../../assets/Perry-Fung-Resume.pdf";
+import resumepdf from "../../assets/Perry-Fung resume.pdf";
 
 function Resume() {
   return (
