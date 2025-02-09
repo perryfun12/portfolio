@@ -1,0 +1,112 @@
+.socials-background{
+    background-image: url("../../../public/Images/social-media-background.avif");
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+    transition: filter 0.3s;
+    position: relative;
+}
+
+.socials-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 47, 59, 0.4);
+}
+
+.socials-background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s; 
+    pointer-events: none; 
+  }
+
+.socials-background:hover::after {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.portfolio-main-content{
+    color: white;
+    font-size: 64px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    z-index: 1;
+}
+
+.portfolio-sub-content{
+    color: lightgrey;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    z-index: 1;
+}
+
+.icons {
+    color: white;
+    font-size: 48px;
+    z-index: 1;
+  }
+
+.portfolio-link{
+    z-index: 1;
+}
+
+.portfolio-btn {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.socials-background:hover .portfolio-btn {
+    opacity: 1; 
+    transform: translateY(0);
+}
+  
+
+.socials-background:hover .portfolio-main-content,
+.socials-background:hover .portfolio-sub-content,
+.socials-background:hover .icons 
+{
+  transform: translateY(-20px); /* Move the text and icons up on hover */
+  transition: transform 0.3s;
+  opacity: 1;
+}
+.socials-background:not(:hover) .portfolio-main-content,
+.socials-background:not(:hover) .portfolio-sub-content,
+.socials-background:not(:hover) .icons {
+  transform: translateY(0);
+  transition: transform 0.3s;
+}
+
+@media screen and (max-width: 1000px) {
+    .socials-background {
+        width: 100%; /* Take up the full width */
+    }
+
+    /* Adjust styles for smaller screens */
+    .portfolio-main-content {
+        font-size: 48px; /* Decrease font size */
+    }
+
+    .portfolio-sub-content {
+        font-size: 16px; /* Decrease font size */
+    }
+}
